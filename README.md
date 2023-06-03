@@ -3,7 +3,7 @@
 
 ## Getting Started
 Para aprender flutter, es necesario
-conocer el lenguaje de programación Dart. Por ello, antes de introducirnos en estev mundo. Conoceremos las estructuras básicas y fundamentales de Dart.
+conocer el lenguaje de programación Dart. Por ello, antes de introducirnos en este mundo. Conoceremos las estructuras básicas y fundamentales de Dart.
 
 ## Dart
 [DART Documentation](https://dart.dev/guides)
