@@ -33,7 +33,7 @@ Una vez alli, agregamos la ruta de instalacion de Dart, en este caso es:
 ```bash
 C:\tools\dart-sdk
 ```
-Y de nombre le ponemos 'dart-sdk'.
+Y de nombre le ponemos dart-sdk.
 
 
 
