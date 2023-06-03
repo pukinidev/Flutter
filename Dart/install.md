@@ -25,7 +25,7 @@ Este nos permitira instalar el SDK de Dart en nuestro sistema.
 
 Oprimimos la tecla de windows y escribimos "variables de entorno" y seleccionamos la opcion "Editar las variables de entorno del sistema".
 
-![variables de entorno]('![image](https://github.com/pukinidev/Flutter/assets/98991254/6332ddbc-162e-45e5-a964-89df4cdba333)')
+![variables de entorno]('![image](https://github.com/pukinidev/Flutter/assets/98991254/6332ddbc-162e-45e5-a964-89df4cdba333')
 
 Nos dirigimos a variables de entorno para el usuario actual y seleccionamos la opcionn 'Nuevo'.
 Una vez alli, agregamos la ruta de instalacion de Dart, en este caso es:
