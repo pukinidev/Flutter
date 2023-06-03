@@ -23,7 +23,7 @@ Este nos permitira instalar el SDK de Dart en nuestro sistema.
 
 4. Adicionalmente para que nuestro sistema reconozca los comandos de Dart, debemos agregar la ruta de instalacion de Dart a las variables de entorno del sistema.
 
-Oprimimos la tecla de windows y escribimos "variables de entorno" y seleccionamos la opcion "Editar las variables de entorno del sistema".
+Oprimimos la tecla de windows y escribimos "Variables de entorno"
 
 ![image](https://github.com/pukinidev/Flutter/assets/98991254/8c4e51f5-9a49-414d-a8bd-8cc2718adfa1)
 
