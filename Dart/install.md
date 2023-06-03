@@ -35,5 +35,12 @@ C:\tools\dart-sdk
 ```
 Y de nombre le ponemos dart-sdk.
 
+Para verificar que la instalacion fue exitosa, abrimos una terminal y ejecutamos el comando:
+
+```bash
+dart --version
+```
+
+
 
 
