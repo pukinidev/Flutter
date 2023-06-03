@@ -25,7 +25,7 @@ Este nos permitira instalar el SDK de Dart en nuestro sistema.
 
 Oprimimos la tecla de windows y escribimos "variables de entorno" y seleccionamos la opcion "Editar las variables de entorno del sistema".
 
-![variables de entorno]('https://filestore.community.support.microsoft.com/api/images/289adc92-a95e-4309-8b2f-c73ae598839e?upload=true&fud_access=wJJIheezUklbAN2ppeDns8cDNpYs3nCYjgitr%2BfFBh2dqlqMuW7np3F6Utp%2FKMltnRRYFtVjOMO5tpbpW9UyRAwvLeec5emAPixgq9ta07Dgnp2aq5eJbnfd%2FU3qhn5498QChOTHl3NpYS7xR7zASsaF20jo4ICSz2XTm%2B3GDR4XitSm7nHRR843ku7uXQ4oF6innoBxMaSe9UfrAdMi7owFKjdP9m1UP2W5KAtfQLOIDMfhTpZosYoSU6ynTCpzzGIjrvYhOgdTCiyd0Bsq4g1n%2F%2FV6km5B03fNTgOYq%2Bt9L0xTDWAw%2FobQ1HShgg1fEwR7n7YTPUSHKFPzhu8B%2Bt7YyF5eFR%2BtGKafVYouYebu9Us8Unbgb3AhE1Il88BTB%2BEwJPsVgyzny4rObZ3vUIbkFj4mW6AFU3BpAqCCwBc%3D')
+![variables de entorno]('![image](https://github.com/pukinidev/Flutter/assets/98991254/6332ddbc-162e-45e5-a964-89df4cdba333)')
 
 Nos dirigimos a variables de entorno para el usuario actual y seleccionamos la opcionn 'Nuevo'.
 Una vez alli, agregamos la ruta de instalacion de Dart, en este caso es:
