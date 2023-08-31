@@ -1,5 +1,7 @@
 # Flutter
-:3 :3
+
+## Guia
+https://pukinidev.notion.site/Flutter-Guide-19b98eeb2b1944678cd5c8c2cf77d576?pvs=4
 
 ## Getting Started
 Para aprender flutter, es necesario
