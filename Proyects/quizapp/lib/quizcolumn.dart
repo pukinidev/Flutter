@@ -17,6 +17,7 @@ class _QuizColumnState extends State<QuizColumn> {
         Image.asset(
           'assets/images/quiz-logo.png',
           width: 300,
+          color: const Color.fromARGB(150, 255, 255, 255),
         ),
 
         const SizedBox(
@@ -35,13 +36,15 @@ class _QuizColumnState extends State<QuizColumn> {
           height: 30,
         ),
 
-        OutlinedButton(
+        //icon and button
+        OutlinedButton.icon(
           onPressed: () {},
           style: OutlinedButton.styleFrom(
             foregroundColor: Colors.white,
 
           ),
-          child: const Text('Start Quiz'),
+          icon: const Icon(Icons.arrow_right_alt),
+          label: const Text('Start Quiz'),
         )
       ],
     );
