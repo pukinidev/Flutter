@@ -7,10 +7,10 @@ void main() {
       home: Scaffold(
         body: MyWidget(
           colors: [
-            Color.fromARGB(255, 255, 192, 203),
-            Color.fromARGB(255, 230, 230, 250),
-            Color.fromARGB(255, 152, 255, 152),
-            Color.fromARGB(255, 173, 216, 230)
+             Color.fromARGB(255, 0, 0, 255), // Blue
+             Color.fromARGB(255, 0, 128, 255), // Light Blue
+             Color.fromARGB(255, 0, 64, 255), // Medium Blue
+             Color.fromARGB(255, 0, 0, 128), // 
           ],
         )
       ),

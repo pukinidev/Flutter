@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proyectone/styled_text.dart';
+import 'package:proyectone/dice_roller.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
@@ -14,12 +14,10 @@ class MyWidget extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-            colors: colors,
-            begin: startAlignment, 
-            end: endAlignment),
+            colors: colors, begin: startAlignment, end: endAlignment),
       ),
       child: const Center(
-        child: StyledText("Pukini")
+        child: DiceRoller()
       ),
     );
   }
