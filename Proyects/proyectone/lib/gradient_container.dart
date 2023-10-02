@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyectone/styled_text.dart';
 
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
@@ -14,13 +15,7 @@ class MyWidget extends StatelessWidget {
         ], begin: Alignment.topLeft, end: Alignment.bottomRight),
       ),
       child: const Center(
-        child: Text(
-          'Hello',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-          ),
-        ),
+        child: StyledText()
       ),
     );
   }
