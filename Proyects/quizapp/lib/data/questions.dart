@@ -2,54 +2,57 @@ import 'package:quizapp/models/quiz_questions.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Which video game is known for its block-building and sandbox-style gameplay?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Minecraft',
+      'Fortnite',
+      'Call of Duty',
+      'FIFA',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'What is the name of the iconic plumber in Nintendo\'s Super Mario series?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Mario',
+      'Luigi',
+      'Bowser',
+      'Yoshi',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'In the game "The Legend of Zelda," what is the protagonist named?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Link',
+      'Zelda',
+      'Ganon',
+      'Sheik',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Which popular video game franchise features battles between red and blue teams in various game modes?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Team Fortress',
+      'Overwatch',
+      'Counter-Strike',
+      'Rainbow Six Siege',
+    ],
+  ),
+  QuizQuestion(
+    'What is the main objective in the game "Pac-Man"?',
+    [
+      'Collect all the dots in the maze',
+      'Defeat the ghosts',
+      'Solve puzzles',
+      'Survive waves of enemies',
+    ],
+  ),
+  QuizQuestion(
+    'Which video game series is set in a post-apocalyptic nuclear wasteland?',
+    [
+      'Fallout',
+      'Bioshock',
+      'The Elder Scrolls',
+      'Borderlands',
     ],
   ),
 ];
