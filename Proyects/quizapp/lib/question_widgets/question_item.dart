@@ -15,6 +15,14 @@ class SummaryItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
       child: Row(
+        /*
+        To align all items to the left
+        add CrossAxisAligment.start
+
+        For example in this case, we need to add it in both because
+        it won't work if it's added only to the Row or the Column widget
+        
+        */
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           QuestionIcon(
@@ -37,6 +45,10 @@ class SummaryItem extends StatelessWidget {
                   height: 5,
                 ),
                 Text(
+                  /*
+                  Dart identifies itemData['user_answer'] as an Object so it has be casted to String
+                  because that's the type of the first parameter that the Widget Text recieves.
+                  */
                   itemData['user_answer'] as String,
                   style: const TextStyle(
                     color: Color.fromARGB(255, 202, 171, 252),

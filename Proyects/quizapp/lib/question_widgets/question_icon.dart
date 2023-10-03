@@ -18,6 +18,7 @@ class QuestionIcon extends StatelessWidget {
       height: 30,
       alignment: Alignment.center,
       decoration: BoxDecoration(
+        // Ternary operator to change the color of the circle if the answer is correct or wrong 
         color: isCorrectAnswer ? const Color.fromARGB(255, 150, 198, 241): const Color.fromARGB(255, 249,133,241),
         borderRadius: BorderRadius.circular(100)
       ),
