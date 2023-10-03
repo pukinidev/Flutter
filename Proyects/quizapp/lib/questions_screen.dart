@@ -49,6 +49,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                 action: () {
                   answerQuestion(answer);
                 },
+                indexNumber: currentIndex,
               );
             }),
           ],
@@ -56,4 +57,5 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
       ),
     );
   }
+
 }

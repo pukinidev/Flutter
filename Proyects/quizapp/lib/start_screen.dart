@@ -22,7 +22,7 @@ class QuizColumn extends StatelessWidget {
           ),
 
           const Text(
-            'Learn Flutter the fun way!',
+            'Videogames Quiz!',
             style: TextStyle(color: Colors.white, fontSize: 20),
           ),
 
