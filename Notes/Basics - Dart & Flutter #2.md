@@ -123,7 +123,7 @@ We use the spread operator when we want to map information from list. For exampl
 }),
 ```
 
-The function map creates a List inside a List of AnswerButton but Dart doesn’t understand that we are giving him the widgets because they are inside a list that is contained into another list. So the spread operator pop the values from the list that is contained and put them in child list one by one separeted by comas in order to make Dart urderstand that they are widgets.
+The function map creates a List inside a List of AnswerButton but Dart doesn’t understand that we are giving him the widgets because they are inside a list that is contained into another list. So the spread operator pop the values from the list that is contained and put them in child list one by one separated by comas in order to make Dart urderstand that they are widgets.
 
 ## Custom Fonts
 
