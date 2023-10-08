@@ -105,7 +105,7 @@ Center(child: Text('Pukini'));
 
 The Container Widget is a space where you can add more widgets and add them some decoration. Imagine you create a component that has a text and you want to put the text inside a box with a custom height and width.
 
-![Untitled](/Notes/Images/Basics%20-%20Dart%20&%20Flutter%20#1/Container.png)
+![Untitled](https://github.com/pukinidev/Flutter/blob/main/Notes/Images/Basics%20-%20Dart%20%26%20Flutter%20%231/Container.png)
 
 ## Creating own Widgets
 
@@ -144,7 +144,7 @@ var startAlignment = Alignment.topLeft;
 
 If we stop by the variable name in vscode we should be able to see the variable type just like in the photo above.
 
-![Untitled](/Notes/Images/Basics%20-%20Dart%20&%20Flutter%20#1/Variables.png)
+![Untitled](https://github.com/pukinidev/Flutter/blob/main/Notes/Images/Basics%20-%20Dart%20%26%20Flutter%20%231/Variables.png)
 
 Also another way to declare variables is by doing this. Here we are making clear what type is the variable we are storing in our app.
 
