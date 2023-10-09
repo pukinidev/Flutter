@@ -140,3 +140,23 @@ To import the package we use the following command
 ```dart
 import 'package:google_fonts/google_fonts.dart';
 ```
+
+## Classes 
+
+In Dart we can create objects just like in Java.
+For example,
+```dart
+
+class Car {
+
+  Car({
+    required this.modelName,
+    required this.year
+  })
+
+  final String modelName;
+  final DateTime year; 
+
+}
+```
+

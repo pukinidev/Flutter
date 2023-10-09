@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const Expenses()
-  );
+    const MaterialApp(
+      home: Expenses(),  
+      )
+    );
 }
