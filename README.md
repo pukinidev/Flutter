@@ -2,7 +2,7 @@
 
 ## Guia
 Las notas guias se pueden encontrar en la siguiente pagina:
-https://pukinidev.notion.site/Flutter-3a00963202eb4cc490a668eee8f9efef \
+https://pukinidev.notion.site/Flutter-3a00963202eb4cc490a668eee8f9efef 
 
 Tambien se pueden encontrar en la carpeta Notes del repositorio
 
