@@ -167,13 +167,13 @@ class Car {
 # Assign automatic ID
 
 In dart if we want to give an item a unique id we can use the Uuid library.
-
+To install the library we need to run the next comand.
 
 ```dart
 flutter pub add uuid
 ```
 
-Example,
+A example using the library,
 
 ```dart
 import 'package:uuid/uuid.dart';
@@ -185,7 +185,13 @@ class Expense {
    required this.title,
    required this.amount, 
    required this.date
-  }) : id = uuid.v4();
+  }) : id = uuid.v4(); // Initialize the id 
+
+  /*
+  After the constructor is defined we can initialize 
+  values using : and then specifyng which variables
+  we want to initialize with custom values.
+  */
 
   final String id;
   final String title;
