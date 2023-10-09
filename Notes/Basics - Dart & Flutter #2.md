@@ -171,7 +171,7 @@ class Car {
 # Assign automatic ID
 
 In dart if we want to give an item a unique id we can use the Uuid library.
-To install the library we need to run the next comand.
+To install the library we need to run the next command.
 
 ```dart
 flutter pub add uuid
