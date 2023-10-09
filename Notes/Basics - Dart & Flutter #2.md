@@ -150,12 +150,16 @@ For example,
 class Car {
 
   // Constructor
-
   Car({
     required this.modelName,
     required this.year
   })
 
+  /*
+  In this case we create a class
+  using named parameters. We can also use
+  positional arguments. 
+  */
 
   // Variables from the class
   final String modelName;
