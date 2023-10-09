@@ -149,14 +149,52 @@ For example,
 
 class Car {
 
+  // Constructor
+
   Car({
     required this.modelName,
     required this.year
   })
 
+
+  // Variables from the class
   final String modelName;
   final DateTime year; 
 
 }
 ```
+
+# Assign automatic ID
+
+In dart if we want to give an item a unique id we can use the Uuid library.
+
+
+```dart
+flutter pub add uuid
+```
+
+Example,
+
+```dart
+import 'package:uuid/uuid.dart';
+
+const uuid = const Uuid();
+
+class Expense {
+  Expense({
+   required this.title,
+   required this.amount, 
+   required this.date
+  }) : id = uuid.v4();
+
+  final String id;
+  final String title;
+  final double amount;
+  final DateTime date;
+}
+```
+
+
+
+
 
