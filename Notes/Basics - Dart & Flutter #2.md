@@ -182,7 +182,7 @@ A example using the library,
 ```dart
 import 'package:uuid/uuid.dart';
 
-const uuid = const Uuid();
+const uuid = Uuid();
 
 class Expense {
   Expense({
