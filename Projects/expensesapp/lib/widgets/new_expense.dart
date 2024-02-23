@@ -139,7 +139,6 @@ class _NewExpenseState extends State<NewExpense> {
                     _selectedCategory = value;
                   });
                 },
-                dropdownColor: Colors.amber,
               ),
               const Spacer(),
               TextButton(
