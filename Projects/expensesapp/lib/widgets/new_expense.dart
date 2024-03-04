@@ -8,6 +8,7 @@ class NewExpense extends StatefulWidget {
 
   @override
   State<NewExpense> createState() => _NewExpenseState();
+
 }
 
 class _NewExpenseState extends State<NewExpense> {
