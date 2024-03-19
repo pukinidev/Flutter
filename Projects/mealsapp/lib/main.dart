@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mealsapp/categories.dart';
+import 'package:mealsapp/screens/categories.dart';
 
 final theme = ThemeData(
   colorScheme: ColorScheme.fromSeed(
@@ -13,6 +13,7 @@ final theme = ThemeData(
 void main() {
   runApp(const App());
 }
+
 
 class App extends StatelessWidget {
   const App({super.key});
