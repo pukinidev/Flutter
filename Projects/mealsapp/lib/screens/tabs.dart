@@ -120,6 +120,7 @@ class _TabsScreenState extends State<TabsScreen> {
             label: 'Favorites',
           ),
         ],
+        
       ),
       drawer: MainDrawer(
         onSelectedScreen: _setScreen,
