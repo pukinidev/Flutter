@@ -60,7 +60,7 @@ class _NewItemState extends State<NewItem> {
         child: Form(
           key: _formKey,
           child: Column(
-            children: [
+            children: <Widget>[
               TextFormField(
                 maxLength: 50,
                 decoration: const InputDecoration(label: Text('Name')),
@@ -76,6 +76,7 @@ class _NewItemState extends State<NewItem> {
                 onSaved: (value) {
                   _enteredName = value!;
                 },
+                
               ),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
